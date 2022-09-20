@@ -7,6 +7,7 @@
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
 }
 header >nav{
     padding-top: 1%;
@@ -20,6 +21,9 @@ header >nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.canali-discord{
+    margin-top: 8%;
 }
 button{
     background-color: white;
@@ -65,7 +69,8 @@ button{
     font-weight: 300;
     margin-left: 2%;
 }
-#button-download{
+
+.button-download{
     background-color: rgb(87,101,242);
     color: white;
     padding: 12px 12px;
@@ -75,15 +80,10 @@ button{
     font-weight: 300;
     margin-bottom: 15%;
 }
-.canali-discord{
-    
-    
-}
 
 .section1{
-    width: 100%;
     margin-top: 15%;
-    
+
 }
 
 .box{
@@ -91,13 +91,9 @@ button{
     
 }
 
-.box1{
- 
-   
-}
-
 .picture { 
     flex-basis: 55%;  
+    vertical-align: middle;
     
 }
 
@@ -138,42 +134,63 @@ button{
 }
 
 .menu-footer{
-    height: 50vh;
-    
-}
+    padding: 3%;
+    border-bottom: 1px solid rgb(87,101,241);
+    width: 80%;
+} 
 
-.colonna1{
-    background-color: red;
+.colonna1 {
     flex-grow: 2;
 }
 
-.colonna2{
-    background-color: brown;
-    flex-grow: 1;
-    
+.colonna1 >p{
+    color: rgb(87,101,241);
+    font-size: 2em;
+    font-weight: 900;
+
 }
-.colonna3{
-    background-color: rgb(109, 8, 8);
+
+.colonna2, .colonna3{
     flex-grow: 1;
-   
+    margin-top: 5px;
+    color: white;
 }
 
 footer{
-    background-color: lightgrey;
+    background-color: rgb(35,39,42);
 }
 
 .bottom-button{
-    background-color: lightskyblue;
-    height: 10vh;
+    height: 15vh;
+    margin-top: 1%;
 
 }
 
-.cella{
-    background-color: blue;
-    width: 15%;
-    height: 100%;
+.ita{
+    vertical-align: middle;
+    width: 5%;
+    height: 4%;
 }
 
-footer > div:first-child{
-    border-bottom: 5px solid black;
+.icon >i{
+    color: white;
+    margin-top: 5%;
+    margin-right: 5%;
+    
 }
+
+.colonna1 > span{
+    color: white;
+    vertical-align: middle;
+}
+
+.footer-list{
+    list-style: none;
+    line-height: 26px;
+}
+
+.title{
+    color: rgb(87,101,241);
+    font-weight: bold;
+}
+
