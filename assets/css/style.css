@@ -65,68 +65,66 @@ button{
     font-weight: 300;
     margin-left: 2%;
 }
-
+#button-download{
+    background-color: rgb(87,101,242);
+    color: white;
+    padding: 12px 12px;
+    border-radius: 40px;
+    border-style: none;
+    line-height: 7px;
+    font-weight: 300;
+    margin-bottom: 15%;
+}
 .canali-discord{
-    width: 100%;
-    height: 30vh;
-    background-color: white;
+    
+    
 }
 
 .section1{
     width: 100%;
-    height: 30vh;
-    background-color: grey;
+    margin-top: 15%;
+    
 }
 
 .box{
     background-color: white;
-    height: 30vh;
+    
 }
 
 .box1{
-    background-color: grey;
-    height: 30vh; 
+ 
+   
 }
 
-.picture {
-    height: auto;
+.picture { 
     flex-basis: 55%;  
-}
-
-.text{
-    height: auto;
-    flex-basis: 40%;  
-}
-
-.picture{
-    background-color: lightgreen;
     
 }
 
 .text{
-    background-color: darkgreen;
-     
+    font-size: 0,8em;
+    padding: 4% 23% 0% 5%;
+    flex-basis: 42%;
+    text-align: left;
+
 }
 
 .testo {
-    background-color: rgb(4, 175, 4);
-    height: 20vh;
+    text-align: center;
+    padding: 0% 23%;
+    margin-top: 15%;
     
 }
 .immagine {
-    background-color: rgb(66, 241, 66);
-    height: 20vh;
+    text-align: center;
 }
 .testo-button {
-    background-color: rgb(1, 61, 1);
-    height: 20vh;
+    text-align: center;
 }
 
 .row { 
     padding-top: 1%;
-    background-color: grey;
-    height: auto;
-    align-items: center;
+    
 }
 
 .flex-column{
