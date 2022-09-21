@@ -8,6 +8,7 @@ header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 header >nav{
     padding-top: 1%;
@@ -98,8 +99,8 @@ button{
 }
 
 .text{
-    font-size: 0,8em;
-    padding: 4% 23% 0% 5%;
+    font-size: 25px;
+    padding: 30px;
     flex-basis: 42%;
     text-align: left;
 
@@ -107,8 +108,8 @@ button{
 
 .testo {
     text-align: center;
-    padding: 0% 23%;
     margin-top: 15%;
+    font-size: 25px;
     
 }
 .immagine {
