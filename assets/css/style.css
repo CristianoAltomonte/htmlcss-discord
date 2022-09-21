@@ -135,7 +135,7 @@ button{
 }
 
 .menu-footer{
-    padding: 3%;
+    padding: 3% 0%;
     border-bottom: 1px solid rgb(87,101,241);
     width: 80%;
 } 
